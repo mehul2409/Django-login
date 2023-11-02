@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'auth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'auth',
-        'USER': 'postgres',
-        'PASSWORD': 'mehul1234',
-        'HOST':'localhost',
-        'PORT':'5433',
+        'NAME': 'backend',
+        'USER': 'Saloni',
+        'PASSWORD': 'Saloni123',
+        'HOST':'http://backend.ccfz9pfsg2ef.ap-south-1.rds.amazonaws.com',
+        'PORT':'5432',
     }
 }
 
